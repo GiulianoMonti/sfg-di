@@ -14,8 +14,7 @@ public class LifeCycleDemoBean implements InitializingBean, DisposableBean, Bean
         BeanFactoryAware, ApplicationContextAware {
 
 
-    public LifeCycleDemoBean()
-    {
+    public LifeCycleDemoBean() {
         System.out.println("## I'm in the LifeCycleBean Constructor");
     }
 
